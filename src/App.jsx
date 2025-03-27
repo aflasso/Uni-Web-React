@@ -1,14 +1,16 @@
-import { useState } from 'react'
 import MyFormulario from './components/Formulario/MyFormulario'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import UserCrud from './components/UserCrud/UserCrud'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
 
-    <MyFormulario/>
+    // <MyFormulario/>
+    <>
+      <UserCrud></UserCrud>
+    </>
 
   )
 }
